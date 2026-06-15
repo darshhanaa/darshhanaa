@@ -81,4 +81,27 @@ My goal is to improve one step at a time and building a strong foundation in pro
 - Linux Basics
 - System Design Fundamentals
 
+  ## 🛠️ Skills
+
+### Comfortable With
+- C
+- C++
+- Python
+- Git
+- GitHub
+- MATLAB
+
+### Learning
+- Data Structures & Algorithms
+- HTML & CSS
+- Operating Systems
+- Database Fundamentals
+- Software Engineering
+
+### Exploring
+- Linux
+- Cybersecurity Fundamentals
+- System Design
+- AI Literacy
+
 📍 Nepal
