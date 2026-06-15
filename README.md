@@ -53,4 +53,32 @@ Currently, I'm documenting my progress through:
 
 My goal is to improve one step at a time and building a strong foundation in problem solving and development.
 
+## 🎯 Project Develop Roadmap
+
+### ✅ Completed
+- Arrays
+- Strings
+- Stack
+- Queue
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Calculator
+- Number Guessing Game
+
+### 🔄 Currently Working On
+- Tic Tac Toe
+- Linked Lists
+- Insertion Sort
+- GitHub Profile Development
+
+### 🎯 Next Goals
+- Recursion
+- Linked Lists
+- Password Generator
+- Quiz Game
+- Linux Basics
+- System Design Fundamentals
+
 📍 Nepal
