@@ -18,4 +18,27 @@
 - Linked Lists
 - Software Development Fundamentals
 
+  ## 📂 Current Projects
+
+### 🔹 DSA Practice
+Learning Data Structures and Algorithms through implementations in C.
+
+Topics covered:
+- Arrays
+- Strings
+- Stack
+- Queue
+- Searching
+- Sorting
+
+### 🔹 Mini Projects
+Building small applications to improve programming and software development skills.
+
+Projects completed:
+- Calculator
+- Number Guessing Game
+
+Projects in progress:
+- Tic Tac Toe
+
 📍 Nepal
