@@ -2,28 +2,36 @@
 
 🎓 4th Semester Computer Engineering Student at Khwopa College of Engineering
 
-💻 Currently focusing on:
+---
+
+## 💻 Focus Areas
 - Software Engineering
 - Data Structures & Algorithms
 - Git & GitHub
 - Building Projects
 
-🚀 Building my skills through:
-- DSA Practice Repository
-- Mini Projects Repository
-- Consistent GitHub Contributions
+---
 
-🌱 Currently Learning:
+## 🚀 What I'm Building
+- DSA Practice Repository (problem solving through C implementations)
+- Mini Projects Repository (small real-world applications)
+- Consistent GitHub learning through hands-on development
+
+---
+
+## 🌱 Currently Learning
 - Sorting Algorithms
 - Linked Lists
 - Software Development Fundamentals
 
-  ## 📂 Current Projects
+---
+
+## 📂 Current Projects
 
 ### 🔹 DSA Practice
-Learning Data Structures and Algorithms through implementations in C.
+Implementing core Data Structures and Algorithms in C to strengthen problem-solving skills.
 
-Topics covered:
+**Topics covered:**
 - Arrays
 - Strings
 - Stack
@@ -31,27 +39,33 @@ Topics covered:
 - Searching
 - Sorting
 
-### 🔹 Mini Projects
-Building small applications to improve programming and software development skills.
+---
 
-Projects completed:
+### 🔹 Mini Projects
+Building small applications to improve programming logic and software development skills.
+
+**Completed:**
 - Calculator
 - Number Guessing Game
 
-Projects in progress:
+**In Progress:**
 - Tic Tac Toe
 
-  ## 🌱 Learning Journey
+---
 
-I believe the best way to learn is by building.
+## 🌱 Learning Journey
 
-Currently, I'm documenting my progress through:
+I believe the best way to learn programming is by building.
+
+I am currently improving through:
 - Consistent GitHub commits
 - Data Structures & Algorithms practice
-- Mini programming projects
-- Exploring software engineering concepts
+- Mini projects
+- Exploring core software engineering concepts
 
-My goal is to improve one step at a time and building a strong foundation in problem solving and development.
+My goal is to improve step by step and build a strong foundation in problem solving and software development.
+
+---
 
 ## 🎯 Project Develop Roadmap
 
@@ -67,21 +81,21 @@ My goal is to improve one step at a time and building a strong foundation in pro
 - Calculator
 - Number Guessing Game
 
-### 🔄 Currently Working On
+### 🔄 In Progress
 - Tic Tac Toe
 - Linked Lists
 - Insertion Sort
-- GitHub Profile Development
 
-### 🎯 Next Goals
+### 🎯 Next
 - Recursion
-- Linked Lists
 - Password Generator
 - Quiz Game
 - Linux Basics
 - System Design Fundamentals
 
-  ## 🛠️ Skills
+---
+
+## 🛠️ Skills
 
 ### Comfortable With
 - C
@@ -95,7 +109,7 @@ My goal is to improve one step at a time and building a strong foundation in pro
 - Data Structures & Algorithms
 - HTML & CSS
 - Operating Systems
-- Database Fundamentals
+- Database Systems
 - Software Engineering
 
 ### Exploring
@@ -103,5 +117,7 @@ My goal is to improve one step at a time and building a strong foundation in pro
 - Cybersecurity Fundamentals
 - System Design
 - AI Literacy
+
+---
 
 📍 Nepal
