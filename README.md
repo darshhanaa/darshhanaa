@@ -41,4 +41,16 @@ Projects completed:
 Projects in progress:
 - Tic Tac Toe
 
+  ## 🌱 Learning Journey
+
+I believe the best way to learn is by building.
+
+Currently, I'm documenting my progress through:
+- Consistent GitHub commits
+- Data Structures & Algorithms practice
+- Mini programming projects
+- Exploring software engineering concepts
+
+My goal is to improve one step at a time and building a strong foundation in problem solving and development.
+
 📍 Nepal
