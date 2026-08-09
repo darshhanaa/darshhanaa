@@ -1,122 +1,126 @@
 # Hi, I'm Darshana Ghodasaini 👋
 
-🎓 4th Semester Computer Engineering Student at Khwopa College of Engineering
+🎓 4th Semester Computer Engineering Student at Khwopa College of Engineering, Nepal
+
+I'm interested in understanding how technology is built, how it affects people,
+and how I can use it to solve practical problems.
+
+My current journey is centered around programming fundamentals, data,
+software development, and responsible AI.
 
 ---
 
-## 💻 Focus Areas
+## 💻 What I'm Interested In
+
 - Software Engineering
 - Data Structures & Algorithms
+- Data & Numerical Computing
+- AI Ethics & Responsible Technology
 - Git & GitHub
-- Building Projects
+- Practical Software Development
 
 ---
 
-## 🚀 What I'm Building
-- DSA Practice Repository (problem solving through C implementations)
-- Mini Projects Repository (small real-world applications)
-- Consistent GitHub learning through hands-on development
-
----
-
-## 🌱 Currently Learning
-- Sorting Algorithms
-- Linked Lists
-- Software Development Fundamentals
-
----
-
-## 📂 Current Projects
+## 🚀 What I've Been Building
 
 ### 🔹 DSA Practice
-Implementing core Data Structures and Algorithms in C to strengthen problem-solving skills.
 
-**Topics covered:**
-- Arrays
-- Strings
-- Stack
-- Queue
-- Searching
-- Sorting
+A growing collection of Data Structures & Algorithms implementations
+in C/C++, built to strengthen problem-solving and programming fundamentals.
+
+**Topics:**
+
+`Arrays` · `Strings` · `Stacks` · `Queues` · `Searching` ·
+`Sorting` · `Linked Lists` · `Recursion`
 
 ---
 
-### 🔹 Mini Projects
-Building small applications to improve programming logic and software development skills.
+### 🔹 AI-YT Shorts Clipper
 
-**Completed:**
+A Python project exploring automated short-form video generation.
+
+**Exploring:**
+
+- YouTube video processing
+- Speech transcription
+- Highlight detection
+- FFmpeg
+- Automated video workflows
+
+---
+
+### 🔹 Data & Numerical Computing
+
+Exploring Python and numerical methods through implementations,
+experiments, and data-oriented projects.
+
+---
+
+### 🔹 Aawaz — Cyber Safety Platform
+
+A collaborative project focused on online harassment and cyber safety
+in Nepal, exploring how technology can be designed with privacy,
+security, and users' needs in mind.
+
+---
+
+## 🎓 2026 Data Fellowship
+
+Selected for the **2026 Data Fellowship**, a program focused on
+building data skills and strengthening data literacy in Nepal.
+
+This opportunity is helping me develop a deeper understanding of
+data and its role in technology and decision-making.
+
+---
+
+## 🛠️ Technical Skills
+
+**Programming**
+
+C · C++ · Python · MATLAB
+
+**Development & Tools**
+
+Git · GitHub · VS Code · Figma · Canva
+
+**Currently Exploring**
+
+Linux · Operating Systems · SQL · Database Systems ·
+Cybersecurity Fundamentals · Advanced DSA · System Design · AI
+
+---
+
+## 📌 Other Projects
+
+I also build small applications to practice programming logic
+and turn concepts into working software.
+
 - Calculator
 - Number Guessing Game
-
-**In Progress:**
 - Tic Tac Toe
+- Contact Book
+- Expense Tracker
+- Password Generator
+- Rock Paper Scissors
+- Student Management System
+- Library Management System
+- To-Do List
 
 ---
 
 ## 🌱 Learning Journey
 
-I believe the best way to learn programming is by building.
+I believe the best way to learn technology is to **build with it**.
 
-I am currently improving through:
-- Consistent GitHub commits
-- Data Structures & Algorithms practice
-- Mini projects
-- Exploring core software engineering concepts
+Instead of trying to learn everything at once, I'm focusing on
+building strong fundamentals and gradually applying them to
+larger and more meaningful projects.
 
-My goal is to improve step by step and build a strong foundation in problem solving and software development.
+I'm learning through coursework, personal projects, hackathons,
+collaboration, and consistent practice.
 
----
-
-## 🎯 Project Develop Roadmap
-
-### ✅ Completed
-- Arrays
-- Strings
-- Stack
-- Queue
-- Linear Search
-- Binary Search
-- Bubble Sort
-- Selection Sort
-- Calculator
-- Number Guessing Game
-
-### 🔄 In Progress
-- Tic Tac Toe
-- Linked Lists
-- Insertion Sort
-
-### 🎯 Next
-- Recursion
-- Password Generator
-- Quiz Game
-- Linux Basics
-- System Design Fundamentals
-
----
-
-## 🛠️ Skills
-
-### Comfortable With
-- C
-- C++
-- Python
-- Git
-- GitHub
-- MATLAB
-
-### Learning
-- Data Structures & Algorithms
-- HTML & CSS
-- Operating Systems
-- Database Systems
-- Software Engineering
-
-### Exploring
-- Linux
-- Cybersecurity Fundamentals
-- System Design
-- AI Literacy
+**Learn → Build → Experiment → Improve**
 
 ---
 
