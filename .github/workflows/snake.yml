@@ -20,12 +20,24 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#39d353&bg_color=#0d1117
 
+      - name: Find generated SVG
+        run: |
+          echo "Files generated:"
+          find dist -type f -print
+
       - name: Add Stars
         run: |
           python3 - <<'PY'
           from pathlib import Path
 
-          file = Path("dist/github-contribution-grid-snake.svg")
+          files = list(Path("dist").glob("*.svg"))
+
+          if not files:
+              raise SystemExit("No SVG file was generated.")
+
+          file = files[0]
+          print(f"Editing: {file}")
+
           svg = file.read_text()
 
           stars = """
@@ -44,7 +56,6 @@ jobs:
             <circle cx="950" cy="70" r="1"/>
             <circle cx="1040" cy="40" r="1.7"/>
             <circle cx="1130" cy="85" r="1.1"/>
-            <circle cx="1220" cy="30" r="1.5"/>
           </g>
 
           <g fill="#8b949e" opacity="0.6">
@@ -60,21 +71,22 @@ jobs:
             <circle cx="910" cy="115" r="0.7"/>
             <circle cx="1000" cy="20" r="0.8"/>
             <circle cx="1090" cy="105" r="0.7"/>
-            <circle cx="1180" cy="55" r="0.8"/>
-          </g>
-
-          <g fill="#39d353" opacity="0.8">
-            <circle cx="210" cy="110" r="1"/>
-            <circle cx="470" cy="15" r="1"/>
-            <circle cx="720" cy="25" r="1"/>
-            <circle cx="900" cy="100" r="1"/>
-            <circle cx="1160" cy="20" r="1"/>
           </g>
           """
 
+          if "</svg>" not in svg:
+              raise SystemExit("Generated file is not a valid SVG.")
+
           svg = svg.replace("</svg>", stars + "</svg>")
+
           file.write_text(svg)
+          print("Stars added successfully.")
           PY
+
+      - name: Rename Snake
+        run: |
+          SVG=$(find dist -type f -name "*.svg" | head -n 1)
+          cp "$SVG" dist/github-contribution-grid-snake.svg
 
       - name: Deploy Snake
         uses: peaceiris/actions-gh-pages@v4
