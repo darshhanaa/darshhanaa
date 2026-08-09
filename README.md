@@ -76,18 +76,23 @@ data and its role in technology and decision-making.
 
 ## 🛠️ Technical Skills
 
-**Programming**
+### Programming
 
-C · C++ · Python · MATLAB
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
-**Development & Tools**
+### Development & Tools
 
-Git · GitHub · VS Code · Figma · Canva
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-**Currently Exploring**
+### Currently Exploring
 
-Linux · Operating Systems · SQL · Database Systems ·
-Cybersecurity Fundamentals · Advanced DSA · System Design · AI
+`Linux` · `Operating Systems` · `SQL` · `Database Systems` ·
+`Cybersecurity` · `Advanced DSA` · `System Design` · `AI`
 
 ---
 
@@ -96,16 +101,16 @@ Cybersecurity Fundamentals · Advanced DSA · System Design · AI
 I also build small applications to practice programming logic
 and turn concepts into working software.
 
-- Calculator
-- Number Guessing Game
-- Tic Tac Toe
-- Contact Book
-- Expense Tracker
-- Password Generator
-- Rock Paper Scissors
-- Student Management System
-- Library Management System
-- To-Do List
+- 🧮 Calculator
+- 🎯 Number Guessing Game
+- 🎮 Tic Tac Toe
+- 📒 Contact Book
+- 💰 Expense Tracker
+- 🔐 Password Generator
+- ✊ Rock Paper Scissors
+- 🎓 Student Management System
+- 📚 Library Management System
+- ✅ To-Do List
 
 ---
 
@@ -120,8 +125,23 @@ larger and more meaningful projects.
 I'm learning through coursework, personal projects, hackathons,
 collaboration, and consistent practice.
 
-**Learn → Build → Experiment → Improve**
+### `Learn → Build → Experiment → Improve`
 
 ---
 
-📍 Nepal
+## 🐍 Contribution Journey
+
+I enjoy keeping track of the things I learn, build, and improve
+along the way.
+
+![GitHub Contribution Snake](https://raw.githubusercontent.com/darshhanaa/darshhanaa/output/github-contribution-grid-snake.svg)
+
+---
+
+<p align="center">
+  <b>Always learning. Always building. 🌱</b>
+</p>
+
+<p align="center">
+  📍 Nepal
+</p>
