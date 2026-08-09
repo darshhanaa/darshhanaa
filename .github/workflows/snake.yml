@@ -20,11 +20,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#39d353&bg_color=#0d1117
 
-      - name: Find generated SVG
-        run: |
-          echo "Files generated:"
-          find dist -type f -print
-
       - name: Add Stars
         run: |
           python3 - <<'PY'
@@ -36,9 +31,13 @@ jobs:
               raise SystemExit("No SVG file was generated.")
 
           file = files[0]
+
           print(f"Editing: {file}")
 
-          svg = file.read_text()
+          # Fix permissions so the generated SVG can be modified
+          file.chmod(0o644)
+
+          svg = file.read_text(encoding="utf-8")
 
           stars = """
           <g fill="#ffffff" opacity="0.75">
@@ -72,6 +71,14 @@ jobs:
             <circle cx="1000" cy="20" r="0.8"/>
             <circle cx="1090" cy="105" r="0.7"/>
           </g>
+
+          <g fill="#39d353" opacity="0.8">
+            <circle cx="210" cy="110" r="1"/>
+            <circle cx="470" cy="15" r="1"/>
+            <circle cx="720" cy="25" r="1"/>
+            <circle cx="900" cy="100" r="1"/>
+            <circle cx="1160" cy="20" r="1"/>
+          </g>
           """
 
           if "</svg>" not in svg:
@@ -79,18 +86,18 @@ jobs:
 
           svg = svg.replace("</svg>", stars + "</svg>")
 
-          file.write_text(svg)
-          print("Stars added successfully.")
-          PY
+          file.write_text(svg, encoding="utf-8")
 
-      - name: Rename Snake
+          print("Stars added successfully.")
+
+      - name: Prepare Snake
         run: |
-          SVG=$(find dist -type f -name "*.svg" | head -n 1)
-          cp "$SVG" dist/github-contribution-grid-snake.svg
+          mkdir -p dist/final
+          cp dist/*.svg dist/final/github-contribution-grid-snake.svg
 
       - name: Deploy Snake
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./dist/final
           publish_branch: output
